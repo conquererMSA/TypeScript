@@ -69,3 +69,17 @@ const personsInfo: Couple<IMen, IWomen> = [
   },
   { name: "Gulbahar", age: 29, husband: "MSA", salary: 54435, role: "Manager" },
 ];
+
+type Men = {
+  name: string;
+  age: number;
+};
+type Women = {
+  school: string;
+  adult: boolean;
+};
+
+const couple2: GenericTuple<Men, Women> = [
+  { name: "MSA", age: 35 },
+  { school: "MSA", adult: true },
+];
