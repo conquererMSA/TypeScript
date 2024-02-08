@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node-dev --respawn --transpile-only src/Basic",
+    "start": "ts-node-dev --respawn --transpile-only src/advance",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
